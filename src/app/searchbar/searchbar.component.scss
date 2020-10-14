@@ -1,0 +1,23 @@
+$height: 70px;
+
+:host{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: $height;
+
+    .search-input {
+        background-color: rgba(white, 0.12);
+        width: 50%;
+        height: $height;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: $height/2;
+    
+        * {
+            width: calc(100% - 50px);
+        }
+    }
+}
+
